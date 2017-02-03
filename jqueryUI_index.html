@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jqueryUI</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+   <!-- 使用CDN加速的链接比下载的文件多自带的图片样式-->
+</head>
+<style>
+     .ui-selected{
+         background-color: #007fff;
+     }
+</style>
+<body>
+<div class="widget">
+    <h1 class="widget">Widget Buttons</h1>
+    <a  href="http://www.hupu.com">虎扑体育</a>
+    <button >按钮</button>
+    <input  type="submit" value="提交">
+</div>
+
+    <h1>CSS Buttons</h1>
+    <a class="ui-button ui-widget ui-corner-all" href="http://www.baidu.com">百度</a>
+
+<br/><br/>
+   <div class="ui-widget-header" id="draggable" style="width: 200px;height: 200px ;border: 2px solid red">draggable box & resizeable</div>
+<br/>
+   <div class="ui-widget-content" id="droppable" style="width: 300px;height: 300px ;border: 2px solid green">droppable box</div>
+
+    <strong>這個世界誰最帥</strong>
+    <ul id="select">
+        <li id="right">A.Me</li>
+        <li>B.You</li>
+        <li>C.You&Me</li>
+    </ul>
+    <a href="#" id="btn">提交</a>
+<strong>可以调整的顺序的列表</strong>
+<ul id="sortable">
+    <li>A.NO1</li>
+    <li>B.NO2</li>
+    <li>C.NO3</li>
+</ul>
+</body>
+</html>
